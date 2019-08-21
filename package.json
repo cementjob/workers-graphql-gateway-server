@@ -1,0 +1,14 @@
+{
+  "name": "{{ project-name }}",
+  "private": true,
+  "description": "GraphQL Federation API",
+  "version": "1.0.0",
+  "author": "{{ authors }}",
+  "dependencies": {
+    "@apollo/gateway": "^0.9.0",
+    "apollo-server-cloudflare": "^2.8.2",
+    "graphql": "^14.2.2"
+  },
+  "license": "MIT",
+  "main": "src/index.js"
+}
